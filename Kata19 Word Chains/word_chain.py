@@ -12,11 +12,11 @@ def NeighbourWords(word) :
         splitWord = list(word)
         # change this letter to something else
         for c in range(ord('A'), ord('Z') + 1) :
-            alphaCaracter = chr(c)
-            #print(alphaCaracter)
-            if alphaCaracter != word[letter] :
-              #print(alphaCaracter)
-              splitWord[letter] = alphaCaracter
+            Character = chr(c)
+            #print(Character)
+            if Character != word[letter] :
+              #print(Character)
+              splitWord[letter] = Character
               #print(splitWord)
               neighbours.append("".join(splitWord))
     #print(neighbours)
